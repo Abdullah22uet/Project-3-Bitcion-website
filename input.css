@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.btn{
+    @apply bg-color-secondary px-9 py-3 font-bold rounded-md capitalize hover:opacity-80 ease-in duration-200;
+}
+.title{
+    @apply text-3xl mb-3 md:text-4xl font-bold leading-snug;
+}
+.blob1{
+    @apply absolute w-80 h-80 bg-color-blob opacity-30 blur-2xl rounded-full top-0 left-5 -z-10;
+}
+.blob2{
+    @apply absolute w-80 h-80 bg-color-secondary opacity-30 blur-2xl rounded-full bottom-0 right-10 -z-10;
+}
+.list{
+    @apply hover:text-color-secondary ease-in duration-200;
+}
+.user-pic.active-pic{
+    border: 2px solid #ff7d3b;
+}
+.user-text{
+    display: none;
+}
+.user-text.active-text{
+    display: block;
+}
